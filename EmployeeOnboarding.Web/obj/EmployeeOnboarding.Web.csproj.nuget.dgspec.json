@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nitheeshtganesh/Documents/MISC/Training/DotNet/EmployeeOnboarding.Web/EmployeeOnboarding.Web/EmployeeOnboarding.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/nitheeshtganesh/Documents/MISC/Training/DotNet/EmployeeOnboarding.Web/EmployeeOnboarding.Web/EmployeeOnboarding.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nitheeshtganesh/Documents/MISC/Training/DotNet/EmployeeOnboarding.Web/EmployeeOnboarding.Web/EmployeeOnboarding.Web.csproj",
+        "projectName": "EmployeeOnboarding.Web",
+        "projectPath": "/Users/nitheeshtganesh/Documents/MISC/Training/DotNet/EmployeeOnboarding.Web/EmployeeOnboarding.Web/EmployeeOnboarding.Web.csproj",
+        "packagesPath": "/Users/nitheeshtganesh/.nuget/packages/",
+        "outputPath": "/Users/nitheeshtganesh/Documents/MISC/Training/DotNet/EmployeeOnboarding.Web/EmployeeOnboarding.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nitheeshtganesh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
